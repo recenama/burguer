@@ -27,3 +27,9 @@
     box-shadow: inset -15px 0 #c15711;
     border-radius: 0 0 20% 20%;
 }
+.bacon{
+    height: 3%;
+    width: 80%;
+    margin: 2% auto;
+    background: linear-gradient(#bf3813,#c45e38);
+}
