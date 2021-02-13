@@ -11,6 +11,7 @@
     border-radius: 50% 50% 0 0;
     box-shadow: inset -15px 0 #c15711;
     margin: 2% auto;
+    position: relative;
 }
 .salad{
     width: 90%;
@@ -45,4 +46,15 @@
     margin: 2% auto;
     background: linear-gradient(#7f3608,#702e05);
     border-radius: 20px;
+}
+.sesame-seed{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    background-color: #f6eaa4;
+    left: 30%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(-20deg);
+    box-shadow: inset -2px -3px #c9c9c9;
 }
