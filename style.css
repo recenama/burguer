@@ -82,3 +82,38 @@
     transform: rotate(60deg);
     box-shadow: inset -1px -3px #c9c9c9;
 }
+.poppy-seed{
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    background-color: #f6eaa4;
+    left: 64%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(10deg);
+    box-shadow: inset -1px -3px #c9c9c9;
+}
+.poppy-seed:after{
+    content: "";
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    background-color: white;
+    left: 150%;
+    top: -130%;
+    border-radius: 40%;
+    transform: rotate(130deg);
+    box-shadow: inset -1px 2px #c9c9c9;
+}
+
+.poppy-seed:before{
+    content: "";
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    background-color: white;
+    left: 10%;
+    top: -260%;
+    border-radius: 40%;
+    box-shadow: inset -1px 2px #c9c9c9;
+}
